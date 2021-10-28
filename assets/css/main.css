@@ -2055,7 +2055,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #A40000;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2085,7 +2085,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #2B252C;
+			background: rgb(0, 0, 46);
 		}
 
 			input[type="button"].alt:hover,
@@ -2146,7 +2146,7 @@ input, select, textarea {
 		.icon.circled {
 			position: relative;
 			display: inline-block;
-			background: #2b252c;
+			background: rgb(0, 0, 46);
 			color: #fff;
 			border-radius: 100%;
 			width: 3em;
@@ -2176,7 +2176,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/header.png");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2298,8 +2298,7 @@ input, select, textarea {
 			display: inline-block;
 			margin: 0;
 			height: 21px;
-			border-left: solid 1px rgba(192, 192, 192, 0.35);
-			border-right: solid 1px rgba(192, 192, 192, 0.35);
+			
 		}
 
 			#nav > ul:before, #nav > ul:after {
@@ -2310,8 +2309,7 @@ input, select, textarea {
 				top: 50%;
 				margin-top: -2px;
 				height: 5px;
-				border-top: solid 1px rgba(192, 192, 192, 0.35);
-				border-bottom: solid 1px rgba(192, 192, 192, 0.35);
+				
 			}
 
 			#nav > ul:before {
@@ -2460,13 +2458,13 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #2b252c;
+		background: rgb(0, 0, 53);
 		color: #fff;
 	}
 
 		#footer .icon.circled {
 			background: #fff;
-			color: #2b252c;
+			color: rgb(0, 0, 46);
 		}
 
 		#footer header {
@@ -3135,4 +3133,44 @@ input, select, textarea {
 						margin-bottom: 2em;
 					}
 
+	}
+
+
+	/*     ALTERAÇÕES	PC	*/
+
+	.inner h1{
+		color: white;
+		font-weight: 800;
+		font-family: 'Saira Condensed', sans-serif;
+	}
+
+
+	.inner h2{
+		color: white;
+		font-weight: 600;
+		font-family: 'Saira Condensed', sans-serif;
+	}
+
+	.inner p{
+		color: white;
+		font-weight: 600;
+		font-family: 'Saira Condensed', sans-serif;
+	}
+
+	#nav a{
+		font-weight: 800;
+	}
+
+	.trails article img{
+		max-width: 600px;
+		max-height: 200px;
+		object-fit: cover;
+    	object-position: center;
+	}
+
+	.bikeimg img{
+		
+		max-height: 400px;
+		object-fit: cover;
+    	object-position: center;
 	}
