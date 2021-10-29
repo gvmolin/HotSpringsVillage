@@ -2518,23 +2518,23 @@ input, select, textarea {
 			cursor: pointer;
 		}
 
-			.carousel .forward:before, .carousel .backward:before {
-				content: '';
-				display: block;
-				width: 6em;
-				height: 6em;
-				border-radius: 100%;
-				background-color: rgba(72, 57, 73, 0.5);
-				position: absolute;
-				top: 50%;
-				margin-top: -3em;
-				-moz-transition: background-color 0.35s ease-in-out;
-				-webkit-transition: background-color 0.35s ease-in-out;
-				-o-transition: background-color 0.35s ease-in-out;
-				-ms-transition: background-color 0.35s ease-in-out;
-				transition: background-color 0.35s ease-in-out;
-				-webkit-backface-visibility: hidden;
-			}
+		.carousel .forward:before, .carousel .backward:before {
+			content: '';
+			display: block;
+			width: 6em;
+			height: 6em;
+			border-radius: 100%;
+			background-color: rgba(72, 57, 73, 0.5);
+			position: absolute;
+			top: 50%;
+			margin-top: -3em;
+			-moz-transition: background-color 0.35s ease-in-out;
+			-webkit-transition: background-color 0.35s ease-in-out;
+			-o-transition: background-color 0.35s ease-in-out;
+			-ms-transition: background-color 0.35s ease-in-out;
+			transition: background-color 0.35s ease-in-out;
+			-webkit-backface-visibility: hidden;
+		}
 
 			.carousel .forward:after, .carousel .backward:after {
 				content: '';
@@ -2543,7 +2543,7 @@ input, select, textarea {
 				position: absolute;
 				top: 50%;
 				margin: -1.5em 0 0 0;
-				background: url("images/arrow.svg") no-repeat center center;
+				background: url("images/arrow2.svg") no-repeat center center;
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
@@ -3174,3 +3174,24 @@ input, select, textarea {
 		object-fit: cover;
     	object-position: center;
 	}
+
+	/* width */
+::-webkit-scrollbar {
+	width: 1vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #ffffff8f;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #A40000;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #6d0000;
+	transition: 0.5s;
+  }
